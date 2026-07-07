@@ -1,0 +1,201 @@
+body{
+    font-family: 
+    "hiragino sans",
+    "Yu Gothic",
+    sans-serif;
+
+    max-width: 1100px;
+    margin: auto;
+    background-color: #f8f6f3;
+}
+
+
+
+
+h1{
+    color: #4e3f36;
+    background-color:#e8d5c4;
+    padding: 15px;
+    border-radius: 15px;
+     font-family:"メイリオ", Courier, monospace;
+     margin: 0%;
+}
+footer{
+    background-color: #dc9f95;
+}
+.subhead{
+    background-color: #e4d1c0;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.navy{
+    color:#664b4f;
+    margin-top: 15px;
+    color: #4e3f36;
+}
+.gold{
+    color: #dc9f95;
+    font-weight: bold;
+}
+p{
+    font-size: 90%;
+}
+h1{
+    font-size: 160%;
+}
+footer{
+    text-align: right;
+}
+article {
+    position: relative;
+    clear: both;
+}
+
+.catch {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color:#dc9f95;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+p{
+    font-size: 90%;
+    line-height: 1.8;
+    margin-top: 0;
+}
+ul{list-style-type:circle ;
+}
+article img{
+    max-width: 966px;
+    height: 275px;
+    border-radius:15px;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 15px;
+}
+h2{
+    margin-bottom: 5px;
+}
+
+nav li{
+    display:inline-block;
+    margin: 0 40px;
+}
+nav a{
+    font-weight: bold;
+    text-decoration:none;
+    color:#4e3f36;
+}
+nav{
+    float:right;
+    width: 100%;
+    height: 60px;
+    clear:both;
+    background-color: #f1e3d6;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img{
+    float:left;
+}
+@media screen and (max-width: 959px){
+    body{
+        background-color: #fffaf7;
+        }
+header img{
+    float:none;
+}
+nav{
+    float:none;
+    width:auto;
+}
+    }
+
+
+    .season{
+        line-height: 2;
+        list-style-image: url("../image/carender.png");
+    }
+    .season li{
+        margin-bottom: 8px;
+    }
+    time{
+        font-weight: bold;
+        color: #dc9f95;
+    }
+.sentou{
+    clear:both;
+    text-align: right;
+}
+
+.pan{
+padding: 0;
+}
+
+.pan li{
+display: inline;
+}
+
+.pan a{
+text-decoration: none;
+color: #4e3f36;
+}
+a:link{
+color:#4e3f36;
+}
+
+a:visited{
+color:#8b6d6d;
+}
+
+a:hover{
+color:#d28b72;
+}
+
+a:active{
+color:#b35b5b;
+}
+
+@media print{
+nav{
+    display:none;
+}
+footer{
+    display:none;
+}
+body{
+    background:#ffffff;
+}
+}
+
+.menuimg{
+    width:250px;
+    border-radius:15px;
+    box-shadow:4px 4px 10px #999;
+}
+
+.drink{
+list-style-image:url("../image/drink.png");
+}
+
+.food{
+    list-style-image: url(../image/food_gohan_hakumai.png);
+}
+header a{
+    display:inline-block;
+}
+
+header a:hover{
+    opacity:0.8;
+}
+
+.place{
+    list-style-image: url("../image/map_pin_shadow.png");
+}
