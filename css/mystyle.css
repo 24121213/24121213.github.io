@@ -7,6 +7,7 @@ body{
     max-width: 1100px;
     margin: auto;
     background-color: #f8f6f3;
+    box-sizing:border-box;
 }
 
 
@@ -66,9 +67,10 @@ p{
 }
 ul{list-style-type:circle ;
 }
-article img{
-    max-width: 966px;
-    height: 275px;
+.mainimg{
+    width:100%;
+    max-width:966px;
+    height:auto;
     border-radius:15px;
 }
 
@@ -105,18 +107,77 @@ nav{
 header img{
     float:left;
 }
-@media screen and (max-width: 959px){
+@media screen and (max-width:959px){
+
+.catch{
+    top: 10px;
+    left: 10px;
+}
+
+.subhead{
+    font-size: 110%;
+    padding: 8px 15px;
+}
+
+
     body{
-        background-color: #fffaf7;
-        }
+    background:#fffaf7;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+header a{
+    display:inline-block;
+}
+
 header img{
     float:none;
 }
+
 nav{
     float:none;
     width:auto;
+    height:auto;
+    padding:10px;
 }
-    }
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display:block;
+    margin:10px 0;
+}
+
+h1{
+    font-size:130%;
+}
+
+section{
+    margin:15px 5px;
+    padding:15px;
+}
+
+.menuimg,
+.place img,
+.mainimg{
+    width:100%;
+    height:auto;
+    max-width:300px;
+}
+
+footer{
+    text-align: center;
+    font-size: 70%;
+    padding: 10px;
+}
+}
 
 
     .season{
