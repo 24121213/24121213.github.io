@@ -110,12 +110,12 @@ header img{
 @media screen and (max-width:959px){
 
 .catch{
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
 }
 
 .subhead{
-    font-size: 110%;
+    font-size: 90%;
     padding: 8px 15px;
 }
 
@@ -237,7 +237,8 @@ body{
 }
 
 .menuimg{
-    width:250px;
+    width:260px;
+    height:auto;
     border-radius:15px;
     box-shadow:4px 4px 10px #999;
 }
@@ -259,4 +260,10 @@ header a:hover{
 
 .place{
     list-style-image: url("../image/map_pin_shadow.png");
+}
+
+time{
+    display: block;
+    font-weight: bold;
+    color: #dc9f95;
 }
